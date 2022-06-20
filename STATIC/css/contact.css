@@ -1,0 +1,206 @@
+.contact .primary-heading{
+    position: relative;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #777777;
+}
+
+.contact .second-heading{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.contact .contact-map{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.contact .contact-map iframe{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.contact .contact-wrapper .left-align{
+    position: relative;
+    max-width: 65%;
+    flex-basis: 65%;
+    margin-top: 30px;
+    padding-right: 30px;
+}
+
+.contact .contact-wrapper .left-align .heading{
+    position: relative;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.contact .contact-wrapper .left-align .text-description{
+    position: relative;
+    margin: 10px 0 30px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.contact .contact-wrapper .left-align .contact-form form .inputBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact .contact-wrapper .left-align .contact-form form .inputBox .input-field{
+    position: relative;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(136, 136, 136, 0.071);
+    border-radius: 3px;
+    background-color: rgba(136, 136, 136, 0.071);
+    padding: 0 15px;
+}
+
+.contact .contact-wrapper .left-align .contact-form form .inputBox .input-field::placeholder,
+.contact .contact-wrapper .left-align .contact-form form .textBox textarea::placeholder
+{
+    text-transform: capitalize;
+}
+
+.contact .contact-wrapper .left-align .contact-form form .textBox{
+    position: relative;
+    margin: 15px 0;
+}
+
+.contact .contact-wrapper .left-align .contact-form form .textBox textarea{
+    position: relative;
+    outline: none;
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+    border: 1px solid rgba(136, 136, 136, 0.071);
+    border-radius: 3px;
+    background-color: rgba(136, 136, 136, 0.071);
+    padding: 15px;
+}
+
+.contact .contact-wrapper .left-align .contact-form form .btn-box .contact-btn{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    height: 40px;
+    padding: 0 40px;
+    background-color: #FF184E;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.contact .contact-wrapper .left-align .contact-form form .btn-box .contact-btn:hover{
+    box-shadow: 0 4px 15px rgba(255, 24, 78, 0.902);
+}
+
+.contact .contact-wrapper .right-align{
+    position: relative;
+    max-width: 35%;
+    flex-basis: 35%;
+    margin-top: 30px;
+}
+
+.contact .contact-wrapper .right-align .office-info, .contact .contact-wrapper .right-align .call-info{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.contact .contact-wrapper .right-align .office-info .text-label, .contact .contact-wrapper .right-align .call-info .text-label{
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.contact .contact-wrapper .right-align .office-info ul li span{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.contact .contact-wrapper .right-align .office-info ul{
+    position: relative;
+    padding-left: 30px;
+}
+
+.contact .contact-wrapper .right-align .office-info ul::after{
+    content: url("/static/img/location.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact .contact-wrapper .right-align .call-info ul li{
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.contact .contact-wrapper .right-align .call-info ul li:nth-child(1)::after{
+    content: url("/static/img/smartphone.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact .contact-wrapper .right-align .call-info ul li:nth-child(2)::after{
+    content: url("/static/img/telephone.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact .contact-wrapper .right-align .call-info ul li:nth-child(3)::after{
+    content: url("/static/img/mail.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact .contact-wrapper .right-align .call-info ul li .call-label{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.contact .contact-wrapper .right-align .call-info ul li .call-data{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+

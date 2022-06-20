@@ -1,0 +1,69 @@
+.tag-articles .articles-wrapper{
+    position: relative;
+    margin: 0 -10px;
+}
+
+.tag-articles .articles-wrapper{
+    position: relative;
+    margin: 0 -15px;
+}
+
+.tag-articles .articles-wrapper .grid-card{
+    position: relative;
+    max-width: 33.3333333333%;
+    flex: 1 1 33.3333333333%;
+    padding: 15px;
+}
+
+.tag-articles .articles-wrapper .grid-card .article-img{
+    position: relative;
+    width: 100%;
+    height: 230px;
+}
+
+.tag-articles .articles-wrapper .grid-card .article-img img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.tag-articles .articles-wrapper .grid-card .article-img .article-category{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.tag-articles .articles-wrapper .grid-card .article-data{
+    position: relative;
+    padding-top: 15px;
+}
+
+.tag-articles .articles-wrapper .grid-card .article-data .article-title{
+    position: relative;
+    padding: 10px;
+}
+
+.tag-articles .articles-wrapper .grid-card .article-data .row-group .wrapper .posted-at{
+    color: #666666;
+    padding-left: 15px;
+}
+
+.tag-articles .articles-wrapper .grid-card .article-data .row-group .wrapper .posted-at::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background-color: #666666;
+    border-radius: 50%;
+}
+
+.tag-articles .articles-wrapper .grid-card .article-data .row-group .bookmark-icon{
+    position: relative;
+    display: inline-block;
+    color: #282828;
+}

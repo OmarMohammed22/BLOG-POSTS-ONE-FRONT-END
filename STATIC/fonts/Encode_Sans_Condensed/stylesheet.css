@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    src: url('EncodeSansCondensed-Black.eot');
+    src: url('EncodeSansCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('EncodeSansCondensed-Black.woff2') format('woff2'),
+        url('EncodeSansCondensed-Black.woff') format('woff'),
+        url('EncodeSansCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    src: url('EncodeSansCondensed-Bold.eot');
+    src: url('EncodeSansCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('EncodeSansCondensed-Bold.woff2') format('woff2'),
+        url('EncodeSansCondensed-Bold.woff') format('woff'),
+        url('EncodeSansCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    src: url('EncodeSansCondensed-ExtraBold.eot');
+    src: url('EncodeSansCondensed-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('EncodeSansCondensed-ExtraBold.woff2') format('woff2'),
+        url('EncodeSansCondensed-ExtraBold.woff') format('woff'),
+        url('EncodeSansCondensed-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Condensed ExLight';
+    src: url('EncodeSansCondensed-ExtraLight.eot');
+    src: url('EncodeSansCondensed-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('EncodeSansCondensed-ExtraLight.woff2') format('woff2'),
+        url('EncodeSansCondensed-ExtraLight.woff') format('woff'),
+        url('EncodeSansCondensed-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    src: url('EncodeSansCondensed-Light.eot');
+    src: url('EncodeSansCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('EncodeSansCondensed-Light.woff2') format('woff2'),
+        url('EncodeSansCondensed-Light.woff') format('woff'),
+        url('EncodeSansCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    src: url('EncodeSansCondensed-Medium.eot');
+    src: url('EncodeSansCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('EncodeSansCondensed-Medium.woff2') format('woff2'),
+        url('EncodeSansCondensed-Medium.woff') format('woff'),
+        url('EncodeSansCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    src: url('EncodeSansCondensed-Regular.eot');
+    src: url('EncodeSansCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EncodeSansCondensed-Regular.woff2') format('woff2'),
+        url('EncodeSansCondensed-Regular.woff') format('woff'),
+        url('EncodeSansCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    src: url('EncodeSansCondensed-Thin.eot');
+    src: url('EncodeSansCondensed-Thin.eot?#iefix') format('embedded-opentype'),
+        url('EncodeSansCondensed-Thin.woff2') format('woff2'),
+        url('EncodeSansCondensed-Thin.woff') format('woff'),
+        url('EncodeSansCondensed-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    src: url('EncodeSansCondensed-SemiBold.eot');
+    src: url('EncodeSansCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('EncodeSansCondensed-SemiBold.woff2') format('woff2'),
+        url('EncodeSansCondensed-SemiBold.woff') format('woff'),
+        url('EncodeSansCondensed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

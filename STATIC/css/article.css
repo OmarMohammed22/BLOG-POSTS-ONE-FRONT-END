@@ -1,0 +1,405 @@
+.article .primary-info{
+    position: relative;
+    margin: 30px 0;
+}
+
+.article .primary-info .article-title{
+    position: relative;
+    margin: 10px 0;
+    font-family: "Encode Sans Condensed";
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.article .primary-info .body-snippet{
+    position: relative;
+    font-family: "Encode Sans Condensed";
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.article .primary-info .row{
+    position: relative;
+    margin-top: 20px;
+}
+
+.article .primary-info .row .row-group .author-img{
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.article .primary-info .row .row-group .author-img img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.article .primary-info .row .row-group .column{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.article .primary-info .row .row-group .column ul{
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.article .primary-info .row .row-group .column ul li{
+    position: relative;
+    padding-right: 10px;
+}
+
+.article .primary-info .row .row-group .column ul li .author-role{
+    position: relative;
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.article .primary-info .row .row-group .column ul li .author-role::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -3px;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #666666;
+    border-radius: 50%;
+}
+
+.article .primary-info .row .row-group .column ul li .posted-at{
+    padding-left: 10px;
+    color: #666666;
+}
+
+.article .primary-info .row .row-group .column ul li .posted-at::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -3px;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #666666;
+    border-radius: 50%;
+}
+
+.article .primary-info .row .row-group .column .updated-at{
+    position: relative;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.article .primary-info .row .row-group .column .updated-at span{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.article .primary-info .row .row-group .share-links li{
+    position: relative;
+    margin-right: 10px;
+}
+
+.article .primary-info .row .row-group .share-links li:last-child{
+    margin-right: 0;
+}
+
+.article .primary-info .row .row-group .share-links li .text-label{
+    position: relative;
+    padding-right: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #666666;
+}
+
+.article .primary-info .row .row-group .share-links li .share-link{
+    color: #282828;
+}
+
+.article .primary-info .row .row-group .minutes-read{
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #666666;
+}
+
+.article .primary-info .row .row-group .minutes-read::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 13px;
+    width: 2px;
+    height: 17px;
+    background-color: #666666;
+}
+
+.article .main-info{
+    position: relative;
+    margin: 30px 0;
+}
+
+.article .main-info .article-img{
+    position: relative;
+    width: 100%;
+    height: 535px;
+}
+
+.article .main-info .article-img img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.article .main-info .article-body{
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 24px;
+    color: #282828;
+    padding-top: 15px;
+}
+
+.article .main-info .article-tags{
+    position: relative;
+    margin: 20px 0;
+}
+
+.article .main-info .article-tags .text-label{
+    position: relative;
+    padding-right: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #666666;
+}
+
+.article .main-info .article-tags .text-label span{
+    position: relative;
+    display: inline-block;
+    color: #666666;
+    font-size: 12px;
+}
+
+.article .main-info .article-tags ul li{
+    position: relative;
+    padding-right: 5px;
+}
+
+.article .main-info .article-tags ul li .article-tag{
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.article .more-articles{
+    position: relative;
+    margin: 30px 0;
+}
+
+.article .more-articles .articles-list{
+    position: relative;
+    padding-top: 25px;
+}
+
+.article .more-articles .articles-list li{
+    position: relative;
+    margin-bottom: 13px;
+}
+
+.article .more-articles .articles-list li::before{
+    content: "+";
+    display: inline-block;
+    position: relative;
+    padding-right: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.article .article-comments{
+    position: relative;
+    margin: 30px 0;
+}
+
+.article .article-comments .comment-form form{
+    position: relative;
+}
+
+.article .article-comments .comment-form form .textBox{
+    position: relative;
+    margin: 15px 0;
+}
+
+.article .article-comments .comment-form form .textBox .text-input{
+    position: relative;
+    outline: none;
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+    border: 1px solid rgba(136, 136, 136, 0.071);
+    border-radius: 3px;
+    background-color: rgba(136, 136, 136, 0.071);
+    padding: 15px;
+}
+
+.article .article-comments .comment-form form .textBox .text-input::placeholder{
+    text-transform: capitalize;
+}
+
+.article .article-comments .comment-form form .row-group{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px -10px;
+}
+
+.article .article-comments .comment-form form .row-group .inputBox{
+    position: relative;
+    max-width: calc(100% / 3);
+    flex: 1 1 calc(100% / 3);
+    padding: 10px;
+}
+
+.article .article-comments .comment-form form .row-group .inputBox .input-field{
+    position: relative;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(136, 136, 136, 0.071);
+    border-radius: 3px;
+    background-color: rgba(136, 136, 136, 0.071);
+    padding: 0 15px;
+}
+
+.article .article-comments .comment-form form .row-group .inputBox .input-field::placeholder{
+    text-transform: capitalize;
+}
+
+.article .article-comments .comment-form form .btn-box .comment-btn{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    height: 40px;
+    padding: 0 40px;
+    background-color: #FF184E;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.article .article-comments .comment-form form .btn-box .comment-btn:hover{
+    box-shadow: 0 4px 15px rgba(255, 24, 78, 0.902);
+}
+
+.article .related-articles{
+    position: relative;
+    padding-top: 30px;
+}
+
+.article .related-articles .articles-wrapper{
+    position: relative;
+    margin: 0 -10px;
+    padding-top: 15px;
+}
+
+.article .related-articles .articles-wrapper{
+    position: relative;
+    margin: 0 -15px;
+}
+
+.article .related-articles .articles-wrapper .grid-card{
+    position: relative;
+    max-width: calc(100% / 4);
+    flex: 1 1 calc(100% / 4);
+    padding: 15px;
+}
+
+.article .related-articles .articles-wrapper .grid-card .article-img{
+    position: relative;
+    width: 100%;
+    height: 180px;
+}
+
+.article .related-articles .articles-wrapper .grid-card .article-img img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.article .related-articles .articles-wrapper .grid-card .article-img .article-category{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.article .related-articles .articles-wrapper .grid-card .article-data{
+    position: relative;
+    padding-top: 15px;
+}
+
+.article .related-articles .articles-wrapper .grid-card .article-data .article-title{
+    position: relative;
+    padding: 10px;
+}
+
+.article .related-articles .articles-wrapper .grid-card .article-data .row-group .wrapper .posted-at{
+    color: #666666;
+    padding-left: 15px;
+}
+
+.article .related-articles .articles-wrapper .grid-card .article-data .row-group .wrapper .posted-at::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background-color: #666666;
+    border-radius: 50%;
+}
+
+.article .related-articles .articles-wrapper .grid-card .article-data .row-group .bookmark-icon{
+    position: relative;
+    display: inline-block;
+    color: #282828;
+}

@@ -1,0 +1,101 @@
+.customize-interests .lg-heading{
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    color: #282828;
+    padding-bottom: 10px;
+}
+
+.customize-interests .text-description{
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+    max-width: 40%;
+    margin: 0 auto;
+    line-height: 24px;
+}
+
+.customize-interests .text-description .bookmarks-link{
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #282828;
+    text-decoration: underline;
+}
+
+.customize-interests .categories{
+    position: relative;
+    padding-top: 50px;
+}
+
+.customize-interests .wrapper{
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.customize-interests .wrapper .heading{
+    position: relative;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.customize-interests .categories .categories-wrapper{
+    position: relative;
+    padding-top: 15px;
+    margin: 0 -10px;
+}
+
+.customize-interests .categories .categories-wrapper .category-box{
+    position: relative;
+    max-width: calc(100% / 5);
+    flex: 1 1 calc(100% / 5);
+    padding: 10px;
+}
+
+.customize-interests .categories .categories-wrapper .category-box .inner .category-img{
+    position: relative;
+    width: 100%;
+    height: 155px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.customize-interests .categories .categories-wrapper .category-box .inner .category-img img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.customize-interests .categories .categories-wrapper .category-box .inner .category-data{
+    position: relative;
+    background-color: rgba(136, 136, 136, 0.071);
+    padding: 15px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.customize-interests .categories .categories-wrapper .category-box .inner .category-data .category-name{
+    font-weight: 600;
+}
+
+.customize-interests .categories .categories-wrapper .category-box .inner .category-data .add-category{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid rgba(136, 136, 136, 0.149);
+    border-radius: 50%;
+    color: #282828;
+}

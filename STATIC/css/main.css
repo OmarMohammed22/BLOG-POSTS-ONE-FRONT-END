@@ -1,0 +1,630 @@
+/* ========== STARTING NAVBAR STYLING ========== */
+.header{
+    position: relative;
+    padding: 10px 0;
+}
+
+.header .header-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header-wrapper .logo-brand{
+    position: relative;
+    display: inline-block;
+    position: relative;
+    font-family: "Encode Sans Condensed";
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    line-height: 1.5px;
+    color: #000000;
+}
+
+.header .header-wrapper .logo-brand:first-letter{
+    color: #4173ff;
+}
+
+.header .header-wrapper .row-group{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header .header-wrapper .row-group .our-social{
+    position: relative;
+    display: flex;
+}
+
+.header .header-wrapper .row-group .our-social li{
+    position: relative;
+    padding-right: 15px;
+}
+
+.header .header-wrapper .row-group .our-social li .social-link{
+    position: relative;
+    display: inline-block;
+    color: #000000;
+    font-size: 20px;
+}
+
+.header .header-wrapper .row-group .search-form form{
+    position: relative;
+    display: flex;
+}
+
+.header .header-wrapper .row-group .search-form form .form-group{
+    position: relative;
+    width: 300px;
+    height: 40px;
+}
+
+.header .header-wrapper .row-group .search-form form .form-group::before{
+    content: "\ebf7";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    font-family: "boxicons" !important;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    font-size: 20px;
+}
+
+.header .header-wrapper .row-group .search-form form .form-group .search-input{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 2px solid rgba(40, 40, 40, 0.1254901961);
+    background: rgba(136, 136, 136, 0.0705882353);
+    padding: 0 30px;
+    position: relative;
+    font-family: "Encode Sans Condensed";
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    line-height: 1.5px;
+    color: #000000;
+}
+
+.header .header-wrapper .row-group .search-form form .form-group .search-input::placeholder{
+    position: relative;
+    font-family: "Encode Sans Condensed";
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    line-height: 1.5px;
+    color: #000000;
+}
+
+.header .header-wrapper .row-group .search-form form .btn-box{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8px;
+}
+
+.header .header-wrapper .row-group .search-form form .btn-box .search-btn{
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.header .header-wrapper .row-group .search-form form .btn-box .search-btn span{
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.header .header-wrapper .row-group .search-form form .btn-box .search-btn span:hover{
+    color: #4173ff;
+}
+  
+.navbar{
+    position: relative;
+    border-top: 1px solid rgba(136, 136, 136, 0.1490196078);
+    border-bottom: 1px solid rgba(136, 136, 136, 0.1490196078);
+}
+
+.navbar .nav-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-wrapper .nav-links{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-wrapper .nav-links li .nav-link{
+    position: relative;
+    display: inline-block;
+    position: relative;
+    font-family: "Encode Sans Condensed";
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #000000;
+    border-left: 1px solid rgba(136, 136, 136, 0.1490196078);
+    border-right: 1px solid rgba(136, 136, 136, 0.1490196078);
+    padding: 10px 20px;
+}
+
+.navbar .nav-wrapper .nav-others{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-wrapper .nav-others li{
+    position: relative;
+    padding-right: 20px;
+}
+
+.navbar .nav-wrapper .nav-others li:last-child{
+    padding-right: 0;
+}
+
+.navbar .nav-wrapper .nav-others li .nav-icon{
+    position: relative;
+    display: inline-block;
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* ========== ENDING NAVBAR STYLING ========== */
+
+/* ========== STARTING FOOTER STYLING ========== */
+.footer{
+    position: relative;
+    background-color: rgba(170, 170, 170, 0.063);
+    padding: 50px 0 0 0;
+}
+.footer .footer-wrapper{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .footer-wrapper .footer-box{
+    position: relative;
+    max-width: 25%;
+    flex-basis: 25%;
+    padding: 30px 0;
+}
+.footer .footer-wrapper .footer-box.footer-newsletter{
+    max-width: 50%;
+    flex-basis: 50%;
+    padding: 25px 60px;
+    border-left: 1px solid rgba(170, 170, 170, 0.268);
+    border-right: 1px solid rgba(170, 170, 170, 0.268);
+}
+.footer .footer-wrapper .footer-box.footer-newsletter .lg-heading{
+    position: relative;
+    text-align: center;
+    position: relative;
+    font-family: "Encode Sans Condensed";
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    color: #000000;
+}
+.footer .footer-wrapper .footer-box.footer-newsletter .newsletter-form{
+    position: relative;
+    padding-top: 25px;
+}
+.footer .footer-wrapper .footer-box.footer-newsletter .newsletter-form form{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .footer-wrapper .footer-box.footer-newsletter .newsletter-form form .form-group{
+    position: relative;
+    max-width: 75%;
+    flex-basis: 75%;
+    height: 40px;
+}
+.footer .footer-wrapper .footer-box.footer-newsletter .newsletter-form form .form-group .newsletter-input{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 2px solid transparent;
+    background: rgba(136, 136, 136, 0.071);
+    padding: 0 30px;
+    position: relative;
+    font-family: "Encode Sans Condensed";
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    line-height: 1.5px;
+    color: #000000;
+}
+.footer .footer-wrapper .footer-box.footer-newsletter .newsletter-form form .form-group .newsletter-input::placeholder{
+    position: relative;
+    font-family: "Encode Sans Condensed";
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    line-height: 1.5px;
+    color: #000000;
+}
+.footer .footer-wrapper .footer-box.footer-newsletter .newsletter-form form .btn-box{
+    position: relative;
+    max-width: 25%;
+    flex-basis: 25%;
+    height: 40px;
+}
+.footer .footer-wrapper .footer-box.footer-newsletter .newsletter-form form .btn-box .newsletter-btn{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    background: #507172;
+    border: 1px solid transparent;
+    outline: none;
+    position: relative;
+    font-family: "Encode Sans Condensed";
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.footer .footer-wrapper .footer-box .footer-logo{
+    position: relative;
+    display: inline-block;
+    position: relative;
+    font-family: "Encode Sans Condensed";
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    color: #000000;
+}
+.footer .footer-wrapper .footer-box .footer-logo:first-letter{
+    color: #4173ff;
+}
+.footer .footer-wrapper .footer-box .text-heading{
+    position: relative;
+    position: relative;
+    font-family: "Encode Sans Condensed";
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    color: #000000;
+}
+.footer .footer-wrapper .footer-box .footer-links{
+    position: relative;
+    padding-top: 25px;
+}
+.footer .footer-wrapper .footer-box .footer-links li{
+    position: relative;
+    padding-bottom: 15px;
+}
+.footer .footer-wrapper .footer-box .footer-links li:last-child{
+    padding-bottom: 0;
+}
+.footer .footer-wrapper .footer-box .footer-links li .footer-link{
+    position: relative;
+    display: inline-block;
+    position: relative;
+    font-family: "Encode Sans Condensed";
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #000000;
+}
+
+.sm-footer{
+    position: relative;
+    padding: 25px 0;
+    background-color: #f3f6f6;
+}
+.sm-footer p{
+    position: relative;
+    position: relative;
+    font-family: "Encode Sans Condensed";
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #000000;
+    text-align: center;
+}
+/* ========== ENDING FOOTER STYLING ========== */
+
+/* ========== STARTING SIGNIN POPUP STYLING ========== */
+
+.signin-popup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 111;
+    width: 350px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    padding: 30px 35px;
+    display: none;
+}
+
+.signin-popup .wrapper .close-popup{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.signin-popup .img-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.signin-popup .img-box img{
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+.signin-popup .popup-text{
+    position: relative;
+    padding: 20px 0;
+}
+
+.signin-popup .popup-text::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 133px;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #4173ff;
+    border-radius: 50%;
+}
+
+.signin-popup .popup-text::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 133px;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #4173ff;
+    border-radius: 50%;
+}
+
+.signin-popup .popup-text .primary-heading{
+    position: relative;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #282828;
+    text-align: center;
+}
+
+.signin-popup .popup-text .secondary-heading{
+    position: relative;
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.signin-popup .popup-form{
+    position: relative;
+    padding: 25px 0;
+}
+
+.signin-popup .popup-form form .inputBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signin-popup .popup-form form .inputBox label{
+    position: relative;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    color: #282828;
+}
+
+.signin-popup .popup-form form .inputBox .input-field{
+    position: relative;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(136, 136, 136, 0.071);
+    border-radius: 3px;
+    background-color: rgba(136, 136, 136, 0.071);
+    padding: 0 15px;
+}
+
+.signin-popup .popup-form form .inputBox .input-field::placeholder{
+    text-transform: capitalize;
+}
+
+.signin-popup .popup-form form .btn-box button{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    padding: 0 40px;
+    background-color: #FF184E;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.signin-popup .popup-form form .btn-box button:hover{
+    box-shadow: 0 4px 15px rgba(255, 24, 78, 0.902);
+}
+
+.signin-popup .lost-password{
+    position: relative;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #282828;
+}
+
+/* ========== ENDING SIGNIN POPUP STYLING ========== */
+
+/* ========== STARTING BREADCRUMB STYLING ========== */
+
+.breadcrumb{
+    position: relative;
+    padding: 10px 0;
+}
+
+.breadcrumb .breadcrumb-nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb .breadcrumb-nav li{
+    position: relative;
+    padding-right: 20px;
+}
+
+.breadcrumb .breadcrumb-nav li:last-child{
+    padding-right: 0;
+}
+
+.breadcrumb .breadcrumb-nav li::after{
+    content: ">";
+    position: absolute;
+    top: 3px;
+    right: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.breadcrumb .breadcrumb-nav li:last-child::after{
+    display: none;
+}
+
+.breadcrumb .breadcrumb-nav li .breadcrumb-link, .breadcrumb .breadcrumb-nav li .breadcrumb-item{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.breadcrumb .breadcrumb-nav li .breadcrumb-item{
+    color: #666666;
+}
+
+/* ========== ENDING BREADCRUMB STYLING ========== */
+
+/* ========== STARTING PAGINATION STYLING ========== */
+
+.pagination{
+    position: relative;
+    padding: 20px 0;
+}
+
+.pagination .pagination-nav li{
+    position: relative;
+    margin-right: 20px;
+}
+
+.pagination .pagination-nav li:last-child{
+    margin-right: 0;
+}
+
+.pagination .pagination-nav li .pagination-link{
+    position: relative;
+    display: inline-block;
+    border: 1px solid rgba(136, 136, 136, 0.149);
+    border-radius: 7px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.pagination .pagination-nav li .pagination-link.prev-page::after{
+    position: relative;
+    display: inline-block;
+    content: "\ea4d";
+    font-family: 'boxicons' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.pagination .pagination-nav li .pagination-link.next-page::after{
+    position: relative;
+    display: inline-block;
+    content: "\ea50";
+    font-family: 'boxicons' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.pagination .pagination-nav li .pagination-link:hover, .pagination .pagination-nav li .pagination-link.active{
+    color: #FFFFFF;
+    background-color: #FF184E;
+}
+
+/* ========== ENDING PAGINATION STYLING ========== */

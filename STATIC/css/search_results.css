@@ -1,0 +1,177 @@
+.search{
+    position: relative;
+    background-image: url("../img/search_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 235px;
+    max-height: 235px;
+}
+
+.search .container-fluid{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search .container-fluid .heading{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #282828;
+}
+
+.search .container-fluid .text-description{
+    position: relative;
+    text-align: center;
+    margin: 10px 0 30px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.search .container-fluid form{
+    position: relative;
+    width: 620px;
+    max-width: 620px;
+    height: 60px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.122);
+    border-radius: 5px;
+}
+
+.search .container-fluid form .form-group{
+    position: relative;
+    width: 550px;
+    max-width: 550px;
+    height: 100%;
+}
+
+.search .container-fluid form .form-group .search-input{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: #FFFFFF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 20px 20px 20px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #282828;
+}
+
+.search .container-fluid form .btn-box{
+    position: relative;
+    width: 70px;
+    max-width: 70px;
+    height: 100%;
+}
+
+.search .container-fluid form .btn-box .search-btn{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: "Encode Sans Condensed";
+    font-size: 12px;
+    font-weight: 700;
+    color: #282828;
+}
+
+.search .container-fluid form .btn-box .search-btn:hover{
+    background-color: #ff184e;
+    box-shadow: 0 4px 15px rgba(255, 24, 78, 0.902);
+    color: #FFFFFF;
+}
+
+.search .container-fluid form .btn-box .search-btn::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 2px;
+    height: 20px;
+    background-color: #ff184e;
+}
+
+.articles-search{
+    position: relative;
+    padding-top: 30px;
+}
+
+.articles-search .articles-wrapper{
+    position: relative;
+    margin: 0 -10px;
+}
+
+.articles-search .articles-wrapper .grid-card{
+    position: relative;
+    max-width: calc(100% / 4);
+    flex: 1 1 calc(100% / 4);
+    padding: 10px;
+}
+
+.articles-search .articles-wrapper .grid-card .article-img{
+    position: relative;
+    width: 100%;
+    height: 230px;
+}
+
+.articles-search .articles-wrapper .grid-card .article-img img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.articles-search .articles-wrapper .grid-card .article-img .article-category{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.articles-search .articles-wrapper .grid-card .article-data{
+    position: relative;
+    padding-top: 15px;
+}
+
+.articles-search .articles-wrapper .grid-card .article-data .article-title{
+    padding: 10px 0;
+}
+
+.articles-search .articles-wrapper .grid-card .article-data .row-group .wrapper .posted-at{
+    color: #666666;
+    padding-left: 15px;
+}
+
+.articles-search .articles-wrapper .grid-card .article-data .row-group .wrapper .posted-at::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background-color: #666666;
+    border-radius: 50%;
+}
+
+.articles-search .articles-wrapper .grid-card .article-data .row-group .bookmark-icon{
+    position: relative;
+    display: inline-block;
+    color: #282828;
+}
